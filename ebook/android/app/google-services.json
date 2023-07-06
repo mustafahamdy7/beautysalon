@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "240451822607",
+    "project_id": "booksapp-b33f9",
+    "storage_bucket": "booksapp-b33f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240451822607:android:ceac229e5ff6b8f3476f7a",
+        "android_client_info": {
+          "package_name": "com.example.ebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240451822607-720rpfp0qt5hqj25glpbbtq2udtuujnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC8Y1j75F1meYq01NGQfxaocHajRDaMBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240451822607-720rpfp0qt5hqj25glpbbtq2udtuujnb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240451822607-pne2rl4cugghk36ur0emct6fr0atac1o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ebook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
