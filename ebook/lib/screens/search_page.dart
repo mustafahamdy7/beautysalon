@@ -60,7 +60,7 @@ class _SearchPageState extends State<SearchPage> {
                 ? volumeInfo['imageLinks']['smallThumbnail']
                 : '';
             if (thumbnail.isEmpty && smallThumbnail.isEmpty) {
-              return null; // Skip the book if both thumbnail and smallThumbnail are empty
+              return null;
             }
 
             return BookClass(
@@ -76,8 +76,8 @@ class _SearchPageState extends State<SearchPage> {
               smallThumbnail: smallThumbnail,
             );
           })
-          .where((book) => book != null) // Remove any null book entries
-          .cast<BookClass>() // Cast the list to List<Book>
+          .where((book) => book != null)
+          .cast<BookClass>()
           .toList();
 
       setState(() {

@@ -6,11 +6,9 @@ import 'login_page.dart';
 import 'package:ebook/screens/home_page.dart';
 
 class Authentication {
-  // For Authentication related functions you need an instance of FirebaseAuth
   final FirebaseAuth _auth = FirebaseAuth.instance;
-
-  //  It will be used to check if the user is logged in or not.
   Stream<User?> get authStateChange => _auth.authStateChanges();
+
 
   Future<void> signInWithEmailAndPassword(
       String email, String password, BuildContext context) async {
@@ -32,7 +30,6 @@ class Authentication {
     }
   }
 
-  // SignUp the user using Email and Password
   Future<void> signUpWithEmailAndPassword(
       String email, String password, BuildContext context) async {
     try {

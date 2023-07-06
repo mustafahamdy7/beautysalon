@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../categories/categoriesthumb.dart';
 import 'package:ebook/screens/home_page.dart';
 import '../screens/search_page.dart';
@@ -8,7 +7,7 @@ class CustomDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Color(0xFF263238),
+      backgroundColor: const Color(0xFF263238),
       child: Padding(
         padding: const EdgeInsets.all(20),
         child: ListView(

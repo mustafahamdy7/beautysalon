@@ -1,9 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:ebook/firebase_options.dart';
-
 import 'authentication.dart';
-import 'login_page.dart';
 
 class RegistrationScreen extends StatefulWidget {
   @override
@@ -18,12 +15,12 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff0D1824),
+      backgroundColor: const Color(0xff0D1824),
       appBar: AppBar(
-        backgroundColor: Color(0xff0D1824),
+        backgroundColor: const Color(0xff0D1824),
         elevation: 0,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () {
             Navigator.pop(context);
           },

@@ -1,13 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:ebook/screens/home_page.dart';
 import 'package:ebook/provider/authentication_provider.dart';
 import '../services/authentication.dart';
 import '../services/login_page.dart';
+
 class CustomAppBar extends ConsumerWidget implements PreferredSizeWidget {
   final String? username;
-
   const CustomAppBar({Key? key, this.username}) : super(key: key);
 
   @override
@@ -47,7 +46,7 @@ class CustomAppBar extends ConsumerWidget implements PreferredSizeWidget {
               'Login',
             ),
             Icon(Icons
-                .login), // Display username if available, otherwise display 'Login'
+                .login),
           ],
         ),
       ),
@@ -67,7 +66,7 @@ class CustomAppBar extends ConsumerWidget implements PreferredSizeWidget {
             const SizedBox(height: 4),
             Text(user.email!),
             const Icon(Icons
-                .email), // Display username if available, otherwise display 'Login'
+                .email),
           ],
         ),
       ),

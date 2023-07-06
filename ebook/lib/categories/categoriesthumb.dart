@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
 import '../widgets/custom_app_bar.dart';
 import '../widgets/custom_drawer.dart';
 import 'categoriesdata.dart';

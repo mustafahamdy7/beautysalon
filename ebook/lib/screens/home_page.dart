@@ -167,7 +167,7 @@ class _HomePageState extends State<HomePage> {
                         children: [
                           Expanded(
                             child: Container(
-                              height: 300, // Specify the desired height here
+                              height: 300,
                               child: GlassCard(
                                 imagePath: 'assets/images/best1.PNG',
                                 onTap: () {
@@ -180,10 +180,10 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          SizedBox(width: 10), // Add spacing between the books
+                          SizedBox(width: 10),
                           Expanded(
                             child: Container(
-                              height: 300, // Specify the desired height here
+                              height: 300,
                               child: GlassCard(
                                 imagePath: 'assets/images/best2.PNG',
                                 onTap: () {
@@ -206,7 +206,7 @@ class _HomePageState extends State<HomePage> {
                         children: [
                           Expanded(
                             child: Container(
-                              height: 300, // Specify the desired height here
+                              height: 300,
                               child: GlassCard(
                                 imagePath: 'assets/images/best3.PNG',
                                 onTap: () {
@@ -219,10 +219,10 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          SizedBox(width: 10), // Add spacing between the books
+                          SizedBox(width: 10),
                           Expanded(
                             child: Container(
-                              height: 300, // Specify the desired height here
+                              height: 300,
                               child: GlassCard(
                                 imagePath: 'assets/images/best6.jpg',
                                 onTap: () {
@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
                         children: [
                           Expanded(
                             child: Container(
-                              height: 300, // Specify the desired height here
+                              height: 300,
                               child: GlassCard(
                                 imagePath: 'assets/images/best4.jpg',
                                 onTap: () {
@@ -258,10 +258,10 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          SizedBox(width: 10), // Add spacing between the books
+                          SizedBox(width: 10),
                           Expanded(
                             child: Container(
-                              height: 300, // Specify the desired height here
+                              height: 300,
                               child: GlassCard(
                                 imagePath: 'assets/images/bb3.jpg',
                                 onTap: () {
